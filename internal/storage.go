@@ -2,6 +2,11 @@ package storage
 
 import (
 	"em4/internal/model"
+	"errors"
+)
+
+var (
+	ErrSongNotFound = errors.New("song not found")
 )
 
 // just for me
