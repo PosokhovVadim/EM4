@@ -1,0 +1,2 @@
+DELETE FROM lyrics;
+DELETE FROM songs;
