@@ -16,3 +16,11 @@ type Song struct {
 	Link        string    `json:"link"`
 	InsertedAt  time.Time `json:"inserted_at"`
 }
+
+type SongUpdate struct {
+	Group       string          `json:"group,omitempty"`
+	Name        string          `json:"name,omitempty"`
+	ReleaseDate string          `json:"release_date,omitempty"`
+	Link        string          `json:"link,omitempty"`
+	Verses      map[uint]string `json:"verses,omitempty"`
+}
