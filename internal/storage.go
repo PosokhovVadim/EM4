@@ -4,6 +4,7 @@ import (
 	"em4/internal/model"
 )
 
+// just for me
 type Storage interface {
 	AddSong(song model.Song, verses []string) (uint, error)
 	DeleteSong(songID uint) error
